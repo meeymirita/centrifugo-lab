@@ -2,7 +2,7 @@
 
 Лаба про realtime на [Centrifugo](https://centrifugal.dev): WebSocket-соединения, каналы и namespaces, `centrifuge-js`, публикация из Laravel, JWT и subscription tokens, proxy, presence и history, recovery и reconnect, Outbox, тесты и безопасность, production (nginx, Redis engine) и нагрузка. Сквозной проект — **Realtime Workspace** (Laravel + Centrifugo + Vue; Centrifugo в Docker).
 
-**Статус: 🟡 методичка написана, не проверена (11.10.2026). Методичка [`centrifugo.html`](centrifugo.html) получена из отдельного чата: 21 сессия, 138 шагов. Структура проверена скриптом, страница открывается без ошибок; текст не вычитан, код и команды не запускались, кода прохождения нет.** Авторы чата отмечают: код сессий 8B, 12B, 13B, 15 и пример k6 не запускались; имена опций consumers, channel_regex, лимитов соединений, emulated_headers, internal_port написаны по памяти (сверять через `centrifugo defaultenv`); пакет `denis660/laravel-centrifugo` в исходниках не читали. План — [`centrifugo_lab_plan_v4.md`](centrifugo_lab_plan_v4.md).
+**Статус: 🟡 методичка написана (11.10.2026); сессии 1–3 прогнаны в Docker 15.11.2026 (Centrifugo v6.10.3, 20 исправлений); сессии 4–21 код и команды не запускались, кода прохождения нет. Методичка [`centrifugo.html`](centrifugo.html): 21 сессия, 138 шагов.** Авторы исходного чата отмечают: код сессий 8B, 12B, 13B, 15 и пример k6 не запускались; имена опций consumers, channel_regex, лимитов соединений, emulated_headers, internal_port — по памяти, сверить через `centrifugo defaultenv`.
 
 ## Что по плану
 
